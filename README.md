@@ -251,6 +251,18 @@ You can customize the agent on the backend and frontend.
 - In `constants/graphConfigs.ts`, you can change the default config objects sent to the ingestion and retrieval graphs. These include the model provider, k value (no of source documents to retrieve), and retriever provider (i.e. vector store).
 
 
+## Docker with Docker Compose
+
+**Training the Model**
+```
+docker-compose build train
+```
+
+**Running Web**
+```
+docker-compose build web && docker-compose up web
+```
+
 ## Troubleshooting
 1. .env Not Loaded
    - Make sure you copied .env.example to .env in both backend and frontend.
