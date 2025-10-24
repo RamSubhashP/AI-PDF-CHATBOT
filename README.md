@@ -1,11 +1,15 @@
 # AI PDF Chatbot & Agent Powered by LangChain and LangGraph
 
+**NOTE: The logic in the codebase is mostly outddated. To see the latest version of the ai pdf chatbot look at the main branch [here](https://github.com/mayooear/ai-pdf-chatbot-langchain)**
+
+Use the new GPT-4 api to build a chatGPT chatbot for Large PDF docs (56 pages used in this example).
 This monorepo is a customizable template example of an AI chatbot agent that "ingests" PDF documents, stores embeddings in a vector database (Supabase), and then answers user queries using OpenAI (or another LLM provider) utilising LangChain and LangGraph as orchestration frameworks.
 
 This template is also an accompanying example to the book [Learning LangChain (O'Reilly)](https://www.oreilly.com/library/view/learning-langchain/9781098167271): Building AI and LLM applications with LangChain and LangGraph.
 
 **Here's what the Chatbot UI looks like:**
 
+The visual guide of this repo and tutorial is in the `visual guide` folder.
 <img width="1096" alt="Screenshot 2025-02-20 at 05 39 55" src="https://github.com/user-attachments/assets/3a9ddea7-b718-476b-bdae-38839be20c12" />
 
 ## Table of Contents
